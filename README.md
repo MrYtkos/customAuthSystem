@@ -37,7 +37,7 @@
 1. **Склонируйте репозиторий**
 
 ```bash
-git clone [<repo_url>](https://github.com/MrYtkos/custom_auth_system.git)
+git clone https://github.com/MrYtkos/custom_auth_system.git
 cd customAuthProject
 ```
 
