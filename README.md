@@ -53,26 +53,28 @@ web — Django проект
 db — PostgreSQL
 
 3. **Применение миграций и создание суперпользователя**
+   
 Mиграции применяются автоматически при старте контейнера web.
+
 Сигнал post_migrate создаёт:
 
-Роль admin
+* Роль admin
 
-Админ-пользователя:
+* Админ-пользователя:
 ```bash
 email: super@admin.com
 password: admin123
 ```
 
-Базовые ресурсы: users, orders, products
+* Базовые ресурсы: users, orders, products
 
-Полные права доступа admin для всех ресурсов
+* Полные права доступа admin для всех ресурсов
 
-Доступ к приложению
+4. **Доступ к приложению**
 
-Django API: http://127.0.0.1:8000/
+* Django API: http://127.0.0.1:8000/
 
-Postman: используйте POST /custom_auth/login/ для получения JWT в куках.
+* Postman: используйте POST /custom_auth/login/ для получения JWT в куках.
 
 # API
 
