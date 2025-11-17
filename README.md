@@ -46,17 +46,17 @@ cd customAuthProject
 ```bash
 docker-compose up --build
 ```
-Контейнеры:
+* Контейнеры:
 
-web — Django проект
+   + web — Django проект
 
-db — PostgreSQL
+   + db — PostgreSQL
 
 3. **Применение миграций и создание суперпользователя**
    
-Mиграции применяются автоматически при старте контейнера web.
+* Mиграции применяются автоматически при старте контейнера web.
 
-Сигнал post_migrate создаёт:
+* Сигнал post_migrate создаёт:
 
 * Роль admin
 
