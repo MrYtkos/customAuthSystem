@@ -72,9 +72,7 @@ password: admin123
 
 4. **Доступ к приложению**
 
-* Django API: http://127.0.0.1:8000/
-
-* Postman: используйте POST /custom_auth/login/ для получения JWT в куках.
+*  http://127.0.0.1:8000/custom_auth/(пути_к_эндпоинтам)
 
 # API
 
